@@ -1,0 +1,27 @@
+modLoader="javafml" 
+loaderVersion="[39,)"
+license="MIT"
+[[mods]]
+modId="iterr"
+version="${file.jarVersion}"
+displayName="Iterr mod"
+logoFile="examplemod.png"
+credits="Iterr mod by DanielMiguel"
+authors="DanielMiguel"
+description='''
+This mod contains blocks, items and mobs from Iterr's videos
+'''
+
+[[dependencies.iterr]]
+    modId="forge"
+    mandatory=true
+    versionRange="[39,)"
+    ordering="NONE" 
+    side="BOTH"
+    
+[[dependencies.iterr]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"

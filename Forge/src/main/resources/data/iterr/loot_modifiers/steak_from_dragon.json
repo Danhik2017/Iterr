@@ -1,0 +1,22 @@
+{
+    "pools": [
+        {
+            "rolls": 32,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "iterr:dragon_steak",
+                    "conditions": [
+                        {
+                        	"condition": "minecraft:entities/creeper"
+                        },
+                        {
+                            "condition": "killed_by_player"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
